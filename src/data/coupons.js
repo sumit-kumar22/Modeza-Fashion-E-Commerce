@@ -1,0 +1,52 @@
+export const COUPONS = [
+  {
+    code: 'WELCOME20',
+    label: 'Welcome 20%',
+    type: 'percent',
+    value: 20,
+    maxDiscount: 50,
+    minOrder: 0,
+    color: 'from-rose-500 to-pink-600',
+    description: '20% off your very first order. Maximum discount $50.',
+  },
+  {
+    code: 'STYLE15',
+    label: 'Style 15%',
+    type: 'percent',
+    value: 15,
+    maxDiscount: 60,
+    minOrder: 99,
+    color: 'from-violet-500 to-purple-600',
+    description: '15% off orders above $99. Maximum discount $60.',
+  },
+  {
+    code: 'NEW10',
+    label: 'New Season 10%',
+    type: 'percent',
+    value: 10,
+    maxDiscount: 40,
+    minOrder: 0,
+    color: 'from-emerald-500 to-teal-600',
+    description: '10% off the new arrivals edit. Maximum discount $40.',
+  },
+  {
+    code: 'FLAT50',
+    label: 'Flat $50',
+    type: 'flat',
+    value: 50,
+    minOrder: 500,
+    color: 'from-amber-500 to-orange-600',
+    description: 'Get $50 off when you spend $500 or more.',
+  },
+  {
+    code: 'FREESHIP',
+    label: 'Free Shipping',
+    type: 'shipping',
+    value: 0,
+    minOrder: 0,
+    color: 'from-sky-500 to-blue-600',
+    description: 'Free standard shipping on any order.',
+  },
+]
+
+export const DEFAULT_COUPONS = COUPONS
