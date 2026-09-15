@@ -77,3 +77,7 @@ All data access flows through `src/api/products.js`. To connect a backend, repla
 | `FREESHIP`  | Free standard shipping                          |
 
 > **Note:** This is a frontend-only demo. Checkout is simulated — no real payments are processed.
+
+
+
+  LIVE : https://sumit-kumar22.github.io/Modeza-Fashion-E-Commerce/
